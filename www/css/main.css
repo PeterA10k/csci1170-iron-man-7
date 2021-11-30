@@ -1,0 +1,29 @@
+/* HOME PAGE */
+
+#main-nav{
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  background-color: lightgray;
+}
+
+#main-nav>ul{
+  list-style-type: none;
+  display: inline-flex;
+  margin-right: 15px;
+}
+
+#main-nav>ul>li{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#main-nav>ul>li>a{
+  color: dimgrey;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#main-nav>ul>li>a:hover{
+  color: gold;
+}
