@@ -1,0 +1,49 @@
+//new to github so I hope this being on my branch means you can't see this 
+//if you can then just delete it, I needed something to work on for my js
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/*header styling*/
+#h1-plus-hamburger {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+#dropdown {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    flex: 1;
+    margin: 0;
+    padding: 1em 0 0;
+}
+#nav-opener {
+    flex: 0;
+}
+#nav-opener img {
+    width: 150px;
+}
+nav ul {
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    text-decoration: none;
+    padding: 0 3em 0 0;
+}
+#dropdown {
+    display: none;
+}
